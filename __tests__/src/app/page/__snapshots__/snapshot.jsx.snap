@@ -3,156 +3,253 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <main
-    class="flex min-h-screen flex-col items-center justify-between p-24"
+    class="bg-white flex min-h-screen flex-col items-center p-24 w-full"
   >
     <div
-      class="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"
+      class="w-full"
     >
-      <p
-        class="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
-      >
-        Get started by editing 
-        <code
-          class="font-mono font-bold"
-        >
-          src/app/page.tsx
-        </code>
-      </p>
       <div
-        class="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none"
+        class="w-full flex flex-col"
       >
-        <a
-          class="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
+        <div
+          class="w-full flex items-center"
         >
-          By
-           
-          <img
-            alt="Vercel Logo"
-            class="dark:invert"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="24"
-            src="/vercel.svg"
-            style="color: transparent;"
-            width="100"
+          <div
+            class="shadow-lg bg-white w-[95%] border rounded py-[16px] px-[18px] flex items-center justify-between cursor-pointer"
+            style="border-color: #cecece;"
+          >
+            <div
+              class="flex items-center"
+            >
+              <div
+                class="flex items-center mr-[15px]"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32.4 97.2c28-12.4 47.6-40.5 47.6-73.2c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3V358.7C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V272c26.7 20.1 60 32 96 32h86.7c12.3 28.3 40.5 48 73.3 48c44.2 0 80-35.8 80-80s-35.8-80-80-80c-32.8 0-61 19.7-73.3 48H208c-49.9 0-91-38.1-95.6-86.8zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM344 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="bg-[#F5F8F9] p-[2px] flex items-center justify-center rounded h-[20px] w-[20px] mr-[8px]"
+              >
+                <span
+                  class="text-[12px] text-[#8c8b8b]"
+                >
+                  11
+                </span>
+              </div>
+              <span
+                class="text-ellipsis line-clamp-1"
+              >
+                Merge Employees with Demographics
+              </span>
+            </div>
+            <div
+              class="rounded bg-[#F5F8F9] px-[8px] py-[5px] flex items-center justify-between"
+            >
+              <svg
+                fill="currentColor"
+                height="12"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM64 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+                />
+              </svg>
+              <span
+                class="ml-[10px] text-[12px]"
+              >
+                100
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-[25px] m-0 flex w-[95%] h-[30px]"
+        >
+          <div
+            class="h-[30px] w-[5px] bg-[#dee2e3] mr-[30px]"
           />
-        </a>
+          <div
+            class="mt-[15px] bg-[#F5F8F9] w-full h-[3px] rounded"
+          />
+        </div>
       </div>
-    </div>
-    <div
-      class="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"
-    >
-      <img
-        alt="Next.js Logo"
-        class="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="37"
-        src="/next.svg"
-        style="color: transparent;"
-        width="180"
-      />
-    </div>
-    <div
-      class="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"
-    >
-      <a
-        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+      <div
+        class="w-full flex flex-col"
       >
-        <h2
-          class="mb-3 text-2xl font-semibold"
+        <div
+          class="w-full flex items-center"
         >
-          Docs
-           
-          <span
-            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          <div
+            class="shadow-lg bg-white w-[95%] border rounded py-[16px] px-[18px] flex items-center justify-between cursor-pointer"
+            style="border-color: #cecece;"
           >
-            -&gt;
-          </span>
-        </h2>
-        <p
-          class="m-0 max-w-[30ch] text-sm opacity-50"
+            <div
+              class="flex items-center"
+            >
+              <div
+                class="flex items-center mr-[15px]"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 15 15"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M1.90321 7.29677C1.90321 10.341 4.11041 12.4147 6.58893 12.8439C6.87255 12.893 7.06266 13.1627 7.01355 13.4464C6.96444 13.73 6.69471 13.9201 6.41109 13.871C3.49942 13.3668 0.86084 10.9127 0.86084 7.29677C0.860839 5.76009 1.55996 4.55245 2.37639 3.63377C2.96124 2.97568 3.63034 2.44135 4.16846 2.03202L2.53205 2.03202C2.25591 2.03202 2.03205 1.80816 2.03205 1.53202C2.03205 1.25588 2.25591 1.03202 2.53205 1.03202L5.53205 1.03202C5.80819 1.03202 6.03205 1.25588 6.03205 1.53202L6.03205 4.53202C6.03205 4.80816 5.80819 5.03202 5.53205 5.03202C5.25591 5.03202 5.03205 4.80816 5.03205 4.53202L5.03205 2.68645L5.03054 2.68759L5.03045 2.68766L5.03044 2.68767L5.03043 2.68767C4.45896 3.11868 3.76059 3.64538 3.15554 4.3262C2.44102 5.13021 1.90321 6.10154 1.90321 7.29677ZM13.0109 7.70321C13.0109 4.69115 10.8505 2.6296 8.40384 2.17029C8.12093 2.11718 7.93465 1.84479 7.98776 1.56188C8.04087 1.27898 8.31326 1.0927 8.59616 1.14581C11.4704 1.68541 14.0532 4.12605 14.0532 7.70321C14.0532 9.23988 13.3541 10.4475 12.5377 11.3662C11.9528 12.0243 11.2837 12.5586 10.7456 12.968L12.3821 12.968C12.6582 12.968 12.8821 13.1918 12.8821 13.468C12.8821 13.7441 12.6582 13.968 12.3821 13.968L9.38205 13.968C9.10591 13.968 8.88205 13.7441 8.88205 13.468L8.88205 10.468C8.88205 10.1918 9.10591 9.96796 9.38205 9.96796C9.65819 9.96796 9.88205 10.1918 9.88205 10.468L9.88205 12.3135L9.88362 12.3123C10.4551 11.8813 11.1535 11.3546 11.7585 10.6738C12.4731 9.86976 13.0109 8.89844 13.0109 7.70321Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="bg-[#F5F8F9] p-[2px] flex items-center justify-center rounded h-[20px] w-[20px] mr-[8px]"
+              >
+                <span
+                  class="text-[12px] text-[#8c8b8b]"
+                >
+                  12
+                </span>
+              </div>
+              <span
+                class="text-ellipsis line-clamp-1"
+              >
+                Update user
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-[5%] flex items-center justify-center"
+          >
+            <svg
+              color="#ff6700"
+              fill="currentColor"
+              height="32"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 103, 0);"
+              viewBox="0 0 24 24"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="px-[25px] m-0 flex w-[95%] h-[30px]"
         >
-          Find in-depth information about Next.js features and API.
-        </p>
-      </a>
-      <a
-        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+          <div
+            class="h-[30px] w-[5px] bg-[#dee2e3] mr-[30px]"
+          />
+          <div
+            class="mt-[15px] bg-[#F5F8F9] w-full h-[3px] rounded"
+          />
+        </div>
+      </div>
+      <div
+        class="w-full flex flex-col"
       >
-        <h2
-          class="mb-3 text-2xl font-semibold"
+        <div
+          class="w-full flex items-center"
         >
-          Learn
-           
-          <span
-            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          <div
+            class="shadow-lg bg-white w-[95%] border rounded py-[16px] px-[18px] flex items-center justify-between cursor-pointer"
+            style="border-color: #cecece;"
           >
-            -&gt;
-          </span>
-        </h2>
-        <p
-          class="m-0 max-w-[30ch] text-sm opacity-50"
-        >
-          Learn about Next.js in an interactive course with quizzes!
-        </p>
-      </a>
-      <a
-        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <h2
-          class="mb-3 text-2xl font-semibold"
-        >
-          Templates
-           
-          <span
-            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
-          >
-            -&gt;
-          </span>
-        </h2>
-        <p
-          class="m-0 max-w-[30ch] text-sm opacity-50"
-        >
-          Explore starter templates for Next.js.
-        </p>
-      </a>
-      <a
-        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <h2
-          class="mb-3 text-2xl font-semibold"
-        >
-          Deploy
-           
-          <span
-            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
-          >
-            -&gt;
-          </span>
-        </h2>
-        <p
-          class="m-0 max-w-[30ch] text-sm opacity-50 text-balance"
-        >
-          Instantly deploy your Next.js site to a shareable URL with Vercel.
-        </p>
-      </a>
+            <div
+              class="flex items-center"
+            >
+              <div
+                class="flex items-center mr-[15px]"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01v0a2.83 2.83 0 0 1 0-4L17 3"
+                  />
+                  <path
+                    d="m16 2 6 6"
+                  />
+                  <path
+                    d="M12 16H4"
+                  />
+                </svg>
+              </div>
+              <div
+                class="bg-[#F5F8F9] p-[2px] flex items-center justify-center rounded h-[20px] w-[20px] mr-[8px]"
+              >
+                <span
+                  class="text-[12px] text-[#8c8b8b]"
+                >
+                  13
+                </span>
+              </div>
+              <span
+                class="text-ellipsis line-clamp-1"
+              >
+                Run tests
+              </span>
+            </div>
+            <div
+              class="rounded bg-[#F5F8F9] px-[8px] py-[5px] flex items-center justify-between"
+            >
+              <svg
+                fill="currentColor"
+                height="12"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM64 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+                />
+              </svg>
+              <span
+                class="ml-[10px] text-[12px]"
+              >
+                4
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </div>
