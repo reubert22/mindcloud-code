@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Mindcloud Step
 
-## Getting Started
+Our website provides a simple yet powerful tool for creating and visualizing the steps section of your pipeline. With just a few pieces of information, you can input key information into a JSON file and instantly see it displayed on your screen.
+Made with [Next.js](https://nextjs.org/)
 
-First, run the development server:
+### Install
+
+```bash
+npm install
+```
+
+### Usage
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Recommendation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Use _node_ version: v21.5
 
-## Learn More
+> To make sure that everything is running as expected before merging to the main branch this project has .github/workflows/pull_request_check.yml. So whenever opening a pull request from a branch to the main branch, the pipeline will run.
 
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> The code will not deploy automatically to the GitHub pages after merging to the main branch, it's necessary to create a tag and push it to the origin. It needs to be release/\*, for example release/v1.0.0. For more information check .github/workflows/nextjs.yml
