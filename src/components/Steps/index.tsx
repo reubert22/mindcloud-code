@@ -8,6 +8,9 @@ import { RxUpdate } from 'react-icons/rx'
 import { CardItem } from '../CardItem'
 import { Divisor } from '../Divisor'
 import { Error } from '../Error'
+import { GrDeploy } from 'react-icons/gr'
+import { IoIosDoneAll } from 'react-icons/io'
+
 import { IStep } from '../../../utils/interfaces'
 
 const pipelineData: IStep[] = [
@@ -35,6 +38,22 @@ const pipelineData: IStep[] = [
     hasError: false,
     subActivitiesNumber: 4,
   },
+  // {
+  //   id: 4,
+  //   name: 'Deploying',
+  //   stepNumber: 14,
+  //   icon: <GrDeploy />,
+  //   hasError: false,
+  //   subActivitiesNumber: 4,
+  // },
+  // {
+  //   id: 5,
+  //   name: 'Done',
+  //   stepNumber: 15,
+  //   icon: <IoIosDoneAll />,
+  //   hasError: false,
+  //   subActivitiesNumber: 4,
+  // },
 ]
 
 export const Steps = () => {
